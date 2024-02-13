@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7beebdd4-f9c0-44c2-9e52-5df6bc6e4c8d" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/GenericInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Printer.java" afterDir="false" />
+    <list default="true" id="7beebdd4-f9c0-44c2-9e52-5df6bc6e4c8d" name="Changes" comment="Add GenericInterface and Printer classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697705390686</updated>
       <workItem from="1697705392108" duration="1536000" />
-      <workItem from="1707810085886" duration="1903000" />
+      <workItem from="1707810085886" duration="3172000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1697706668588</created>
@@ -79,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697706920525</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add GenericInterface and Printer classes">
+      <created>1707812913725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707812913725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Add GenericInterface and Printer classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add GenericInterface and Printer classes" />
   </component>
 </project>

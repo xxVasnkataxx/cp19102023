@@ -1,8 +1,8 @@
 public interface GenericInterface {
 
-    void add(int element);
+    void add(String element);
 
-    void remove(int element);
+    void remove(String element);
 
     int get(int index);
 

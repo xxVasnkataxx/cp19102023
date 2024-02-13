@@ -1,20 +1,37 @@
+import java.util.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
+        // Create an ArrayList of integers
+        List<Integer> numbers = new ArrayList<>();
 
-        StringPrinter stringPrinter = new StringPrinter("Manjeva");
+        // Add elements to the ArrayList
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
 
-        stringPrinter.print();
+        // Print the ArrayList
+        printList(Collections.singletonList(numbers));
 
-        DoublePrinter doublePrinter = new DoublePrinter(10.10);
+        // Create an ArrayList of strings
+        List<String> strings = new ArrayList<>();
 
-        doublePrinter.print();
+        // Print the ArrayList
+        printList(Collections.singletonList(strings));
+    }
 
+    // This method prints the contents of an ArrayList to the console
+    public static void printList(List<Object> list) {
+        for (Object item : list) {
+            System.out.println(item);
+        }
     }
 }
+
 
 class StringPrinter {
 
